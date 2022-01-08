@@ -1,9 +1,15 @@
 <p align="center">
+<<<<<<< HEAD
 <img src = "banner/devsuperior.svg" alt="exercicio">
 </p>
 
 <br>
 
+=======
+<img src = ".banner/devsuperior.svg" alt="exercicio">
+</p>
+
+>>>>>>> 2159596de118b8871a54604ad58a388c583d3723
 ### Aplicação desenvolvida com Java - Springboot
 
 | Modulo | Title | Resumo | Andamento |

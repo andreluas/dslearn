@@ -25,6 +25,7 @@ public class JwtTokenEnchancer implements TokenEnhancer {
         User user = userRepository.findByEmail(authentication.getName());
 
         Map<String, Object> map = new HashMap<>();
+		map.put("userName", user.getUsername());
         map.put("userId", user.getId());
 
         //downcasting
